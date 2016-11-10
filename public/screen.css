@@ -3,6 +3,63 @@ html {
 }
 
 body {
+
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+nav ul{
+  display: flex;
+align-items: flex-end;
+  list-style: none;
+  justify-content: space-between;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  align-items: flex-end;
+  padding:0 15px;
+}
+p{
+  font-style: italic;
+  font-size: 50px;
+}
+
+.octo{
+display: flex;
+flex-wrap: wrap;
+}
+.head{
+color:transparent;
+background-position: left;
+background-size: 6em;
+background-repeat: no-repeat;
+border-color: lightgray;
+}
+
+img{
+  border: solid;
+  border-width: thin;
+  border-right:
+  padding: 50%;
+  border-radius: 0.3em;
+}
+i{
+  color: gray;
+
+}
+figcaption{
+  font-size: 1em;
+  font-style: italic;
+  text-align: center;
+  color: gray;
+}
+q{
+  color: black;
 }
